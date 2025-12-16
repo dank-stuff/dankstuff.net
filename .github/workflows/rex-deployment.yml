@@ -3,12 +3,12 @@ name: rex-deployment
 on:
   push:
     branches:
-      - main
+      - master
     paths-ignore:
       - "**.md"
   pull_request:
     branches-ignore:
-      - main
+      - master
 
 jobs:
   rex-deploy:
