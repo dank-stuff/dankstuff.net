@@ -33,6 +33,7 @@ func main() {
 
 				{Title: "DankMuzikk", Link: "https://dankmuzikk.com", Description: "Create, Share and Play Music Playlists.", LogoPath: "/assets/logos/dankmuzikk.webp"},
 				{Title: "DankLyrics", Link: "https://danklyrics.com", Description: "Find lyrics for songs or something.", LogoPath: "/assets/logos/danklyrics.png"},
+				{Title: "DankVizu", Link: "https://vizu.dankstuff.net", Description: " A super dank audio visualizer singing frog.", LogoPath: "/assets/logos/dankvizu.webp"},
 				{Title: "DankScreen", Link: "https://screen.dankstuff.net", Description: "Display capture card's output into your browser.", LogoPath: "/assets/logos/dankscreen.png"},
 				{Title: "DankTodo", Link: "https://todo.dankstuff.net", Description: "The first htmx app with C (Ulfius)", LogoPath: "/assets/logos/danktodo.png"},
 				{Title: "DankNotes", Link: "https://notes.dankstuff.net", Description: "Bootleg version of Notion and Google Notes.", WIP: true},
