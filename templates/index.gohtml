@@ -29,6 +29,14 @@
     <meta name="apple-mobile-web-app-title" content="Dank Stuff" />
 
     <style>
+      @font-face {
+          font-family: "AudioNugget";
+          font-style: normal;
+          font-weight: normal;
+          font-display: swap;
+          src: local("AudioNugget"), url("/assets/AudioNugget.ttf");
+      }
+
       .icon-grid-container {
         display: flex;
         flex-wrap: wrap;
@@ -111,7 +119,9 @@
         />
         <h1
           style="
-            font-size: 34px;
+            font-weight: 500;
+            font-size: 28pt;
+            font-family: AudioNugget;
             background-color: #2e7d32;
             color: black;
             width: fit-content;
@@ -134,7 +144,9 @@
       >
         <h2
           style="
-            font-size: 30px;
+            font-weight: 500;
+            font-size: 24pt;
+            font-family: AudioNugget;
             color: #2e7d32;
             background-color: black;
             width: fit-content;
