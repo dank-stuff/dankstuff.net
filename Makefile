@@ -26,7 +26,7 @@ tailwindcss-init:
 	npx @tailwindcss/cli -i assets/css/style.css -o assets/css/tailwind.css -m
 
 tailwindcss-build:
-	@npx @tailwindcss/cli -i assets/css/style.css -o assets/css/tailwind.css
+	@npx @tailwindcss/cli -i assets/css/style.css -o assets/css/tailwind.css -m
 
 tailwindcss-server:
 	@npx @tailwindcss/cli -i assets/css/style.css -o assets/css/tailwind.css --watch

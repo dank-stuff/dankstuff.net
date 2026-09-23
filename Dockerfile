@@ -5,7 +5,8 @@ COPY . .
 
 RUN apk add --no-cache wget make sed git npm nodejs
 RUN go install github.com/a-h/templ/cmd/templ@v0.3.1020
-RUN make init
+RUN make tailwindcss-init
+RUN make tailwindcss-build
 RUN make build-http-server
 
 FROM alpine:latest AS run
