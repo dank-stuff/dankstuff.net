@@ -1,0 +1,91 @@
+package pages
+
+import "dankstuff.net/data"
+
+templ Home() {
+	<div
+		class={ "my-8", "mx-3", "xl:mx-[25%]", "flex", "flex-col", "gap-5" }
+	>
+		<section id="welcome">
+			<div class={ "flex", "flex-col", "gap-5", "md:flex-row", "md:items-center", "md:justify-between" }>
+				<div class={ "flex", "min-w-0", "flex-1", "flex-col", "gap-2" }>
+					<h1 class={ "text-4xl", "font-medium" }>
+						DankStuff is an open-source software company making dank software.
+					</h1>
+					<p style="color: #5f5f5f">
+						DankStuff (or newly known as DankStuff LLC) is an open-source software company, providing services for free or reasonable prices.
+						<br/>
+						<br/>
+						All of the DankStuff products will be live until the day I leave this world, DankStuff products aren't just free or have reasonable prices, since here free means free as in free cake.
+						<br/>
+						<br/>
+						You don't pay with data, you don't pay with ads, and all the products are straight to the point. Enjoy the ride or contact us if something's bothering you, Happy danking 🎉✨
+						<br/>
+						<a class={ "nav-link" } href="/about">
+							More info →
+						</a>
+					</p>
+				</div>
+				<div class={ "flex", "h-48", "w-full", "shrink-0", "items-center", "justify-center", "md:w-48" }>
+					<img
+						class={ "h-48", "w-48", "object-contain" }
+						src="/assets/web-app-manifest-512x512.png"
+						width="192"
+						height="192"
+						alt="DankStuff Logo"
+					/>
+				</div>
+			</div>
+		</section>
+		<hr class={ "border-b-dankgrey", "border-b", "m-0", "p-0", "h-0" }/>
+		<section id="products">
+			<div class={ "flex", "flex-col", "gap-2" }>
+				<h2 class={ "text-xl", "font-bold" }>Live prodcuts now.</h2>
+				<p style="color: #5f5f5f">
+					Here's a list of the prodcuts that actually saw the light of day, or more like trying to see it...
+				</p>
+			</div>
+			<div class={ "grid", "grid-cols-2", "gap-4", "my-4", "md:grid-cols-4" }>
+				for _, product := range data.Products {
+					if !product.WIP {
+						<a
+							class={ "flex", "flex-col", "items-center", "gap-2", "rounded-md", "bg-dankgreen/69", "p-3", "text-center", "transition", "duration-200", "hover:-translate-x-1", "hover:-translate-y-1" }
+							href={ templ.SafeURL(product.Link) }
+							target="_blank"
+						>
+							<div class={ "flex", "h-32", "w-32", "items-center", "justify-center" }>
+								<img
+									class={ "h-32", "w-32", "object-contain" }
+									src={ product.LogoPath }
+									width="128"
+									height="128"
+									alt={ product.Title + " Logo" }
+								/>
+							</div>
+							<span class={ "text-dankwhite", "font-medium" }>
+								{ product.Title }
+							</span>
+						</a>
+					}
+				}
+			</div>
+			<div class={ "flex", "justify-center", "my-3" }>
+				<a class={ "nav-link" } href="/products">
+					Check out all the products →
+				</a>
+			</div>
+		</section>
+		<hr class={ "border-b-dankgrey", "border-b", "m-0", "p-0", "h-0" }/>
+		<section id="brief">
+			<div class={ "flex", "flex-col", "gap-2" }>
+				<h2 class={ "text-xl", "font-bold" }>A little more DankStuff</h2>
+				<p style="color: #5f5f5f">
+					Most DankStuff products are made to solve a specific problem without turning into a huge complicated platform that needs a tutorial, a subscription, and a dedicated onboarding call.
+					<br/>
+					<br/>
+					Some products are finished, some are being worked on, and some are waiting patiently in the corner until I remember they exist. Either way, everything is made with the same general idea: useful software, reasonable prices, no ads, and no selling your data.
+				</p>
+			</div>
+		</section>
+	</div>
+}

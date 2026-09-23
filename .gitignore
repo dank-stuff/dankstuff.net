@@ -1,0 +1,8 @@
+assets/js/htmx/
+assets/css/tailwind.css
+*_templ.go
+*_templ.txt
+dankstuff.net
+node_modules/
+Session.vim
+
