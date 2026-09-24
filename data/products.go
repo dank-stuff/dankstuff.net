@@ -8,7 +8,7 @@ var Products = []types.Product{
 		Link:            "https://dankmuzikk.com",
 		Description:     "Create, Share and Play Music Playlists.",
 		LongDescription: "DankMuzikk is a music playlist application made for people who want to create playlists, share them with others, and listen to music without being buried under a mountain of unnecessary features. Create playlists for every mood, add your favorite songs, and keep everything in one place instead of opening seventeen tabs and hoping you remember where that one song was.",
-		LogoPath:        "/assets/logos/dankmuzikk.webp",
+		LogoPath:        "/assets/logos/dankmuzikk.png",
 	},
 	{
 		Title:           "DankLyrics",
