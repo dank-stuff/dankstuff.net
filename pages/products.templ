@@ -10,7 +10,7 @@ templ Products() {
 		class={ "my-8", "mx-3", "xl:mx-[20%]", "flex", "flex-col", "gap-5" }
 	>
 		<h2
-			class={ "font-AudioNugget!", "font-size[24pt]", "font-medium", "text-dankwhite", "bg-dankblack", "w-fit" }
+			class={ "font-AudioNugget!", "font-size[24pt]", "font-medium", "text-dankyellow", "bg-dankblue", "w-fit", "px-2" }
 		>
 			Current DankStuff Products:
 		</h2>
@@ -19,7 +19,7 @@ templ Products() {
 				<div class={ "flex", "flex-col", "gap-5", "md:flex-row", "md:items-start", "md:justify-between" }>
 					<div class={ "flex", "min-w-0", "flex-1", "flex-col", "gap-2" }>
 						<h1 class={ "text-2xl", "font-medium" }>
-							{ product.Title }&semi; { product.Description }
+							<span class={ "text-dankblue", "font-bold" }>{ product.Title }</span>&semi; { product.Description }
 						</h1>
 						<p class={ "text-dankgrey" }>
 							{ product.LongDescription }
