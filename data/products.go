@@ -39,11 +39,19 @@ var Products = []types.Product{
 		LogoPath:        "/assets/logos/danktodo.png",
 	},
 	{
+		Title:           "DankAI",
+		Link:            "https://dankai.net",
+		Description:     "Frontier open source LLMs running on EU shovels!",
+		LongDescription: "Unified interface for every model, OpenAI API compatible, flagship open-source models, private, secure, hosted by us in the EU, controlled by you anywhere!",
+		LogoPath:        "/assets/logos/dankai.png",
+	},
+	{
 		Title:           "DankToolz",
 		Link:            "https://danktoolz.com",
 		Description:     "A bunch of tools in/for the web.",
 		LongDescription: "DankToolz is a collection of small tools for doing useful things on the web without needing to install a suspicious application for every tiny problem. It's the place for converters, generators, formatters, calculators, and other small utilities that are hopefully helpful enough to keep you from searching the internet for the same tool every week.",
 		LogoPath:        "/assets/logos/danktoolz.png",
+		WIP:             true,
 	},
 	{
 		Title:           "DankDL",
@@ -51,13 +59,7 @@ var Products = []types.Product{
 		Description:     "An all in all download manager.",
 		LongDescription: "DankDL is a download manager for keeping downloads in one place instead of relying on the browser to quietly do everything in the background. It is intended to make downloading files easier to manage, whether you have one file to download or a suspiciously large list of things that definitely aren't all Linux distributions.",
 		LogoPath:        "/assets/logos/dankdl.png",
-	},
-	{
-		Title:           "DankAI",
-		Link:            "https://dankai.net",
-		Description:     "A private OpenRouter like LLM provider for open-source models.",
-		LongDescription: "DankAI provides a unified interface for interacting with open-source language models. It is OpenAI API compatible, private, secure supports different models through one interface, and is hosted by us so you don't need to set up every model yourself. Pick a model, send a request, and let the machines think very hard about your prompt.",
-		LogoPath:        "/assets/logos/dankai.png",
+		WIP:             true,
 	},
 	{
 		Title:           "DankNotes",
