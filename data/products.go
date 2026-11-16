@@ -66,7 +66,7 @@ var Products = []types.Product{
 		Link:            "https://notes.dankstuff.net",
 		Description:     "Bootleg version of Notion and Google Notes.",
 		LongDescription: "DankNotes is a work-in-progress notes application for writing down ideas, plans, important information, and all the random thoughts that otherwise disappear the moment you need them. It is inspired by existing note-taking applications, but with fewer corporate meetings involved in deciding where the notes button should go. This product is still a work in progress, so some parts may be missing, unfinished, or held together with hope.",
-		LogoPath:        "/assets/logos/dankstuff-wip.webp",
+		LogoPath:        "/assets/logos/danknotes.png",
 		WIP:             true,
 	},
 	{
@@ -74,7 +74,7 @@ var Products = []types.Product{
 		Link:            "https://dankclip.com",
 		Description:     "A local/remote clipboard manager.",
 		LongDescription: "DankClip is a work-in-progress clipboard manager for keeping copied text available locally or remotely. Instead of copying something, forgetting it, copying something else, and then questioning your entire workflow, DankClip aims to keep your clipboard history where you need it.",
-		LogoPath:        "/assets/logos/dankstuff-wip.webp",
+		LogoPath:        "/assets/logos/dankclip.png",
 		WIP:             true,
 	},
 	{
@@ -82,7 +82,7 @@ var Products = []types.Product{
 		Link:            "https://dankurl.com",
 		Description:     "Another URL shortner.",
 		LongDescription: "DankURL is a work-in-progress URL shortener for turning long links into smaller links that don't take up half the message. There are already many URL shorteners out there, but apparently one more was needed, and here we are.",
-		LogoPath:        "/assets/logos/dankstuff-wip.webp",
+		LogoPath:        "/assets/logos/dankurl.png",
 		WIP:             true,
 	},
 	{
@@ -90,7 +90,7 @@ var Products = []types.Product{
 		Link:            "https://dankdysk.com",
 		Description:     "Magical unlimited cloud drive.",
 		LongDescription: "DankDysk is a work-in-progress cloud storage application for storing files somewhere other than the one computer that will inevitably run out of space. The goal is simple, magical, and probably more complicated than it sounds: give people somewhere to store their files without making the experience unnecessarily painful.",
-		LogoPath:        "/assets/logos/dankstuff-wip.webp",
+		LogoPath:        "/assets/logos/dankdysk.png",
 		WIP:             true,
 	},
 	{
@@ -98,7 +98,7 @@ var Products = []types.Product{
 		Link:            "https://dankip.com",
 		Description:     "Get a public IP for any server/computer.",
 		LongDescription: "DankIP is a work-in-progress service for getting a public IP address for a server or computer. It is intended for situations where you need to know where your machine is visible from the outside world, without having to perform internet archaeology every time.",
-		LogoPath:        "/assets/logos/dankstuff-wip.webp",
+		LogoPath:        "/assets/logos/dankip.png",
 		WIP:             true,
 	},
 	{
@@ -106,7 +106,7 @@ var Products = []types.Product{
 		Link:            "https://libdank.org",
 		Description:     "File compression extension but the result is a video.",
 		LongDescription: "libdank is a work-in-progress file compression extension where the compressed result is a video, because apparently normal archive formats were not strange enough. The idea is experimental, questionable, and hopefully fun. Whether it becomes useful or just remains a technically impressive way to confuse people is still being figured out.",
-		LogoPath:        "/assets/logos/dankstuff-wip.webp",
+		LogoPath:        "/assets/logos/libdank.png",
 		WIP:             true,
 	},
 }
