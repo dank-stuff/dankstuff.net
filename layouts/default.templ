@@ -50,18 +50,19 @@ templ Default(content templ.Component) {
 		</head>
 		<body
 			style='
-      background-image: url("/assets/bgs/marb18.webp"),
-        linear-gradient(to right, #2e7d32, #FBC02D);
-      background-repeat: repeat;
-      padding: 0px;
-      margin: 0px;
-      background-position: center;
-      background-attachment: fixed;
-    '
+		background-image:
+			url("/assets/bgs/marb18.webp"),
+			linear-gradient(to right, #2e7d32, #fbc02d);
+		background-repeat: repeat;
+		padding: 0px;
+		margin: 0px;
+		background-position: center;
+		background-attachment: fixed;
+	'
 		>
 			@header()
 			<main
-				style="width: 100%; min-height: 80dvh;"
+				style="width: 100%; min-height: 80dvh"
 			>
 				<section class="dank-container">
 					@content
@@ -264,8 +265,16 @@ templ banners() {
 			<img
 				class="icon-img pixelated"
 				src="/assets/dank-imgs/dankstuffproduct.webp"
-				alt="A DankStuff product!"
-				title="A DankStuff product!"
+				alt="A DankStuff Product!"
+				title="A DankStuff Product!"
+			/>
+		</a>
+		<a href="" target="_blank">
+			<img
+				class="icon-img pixelated"
+				src="/assets/dank-imgs/dankstuffcompany.webp"
+				alt="A DankStuff Company!"
+				title="WAAT!"
 			/>
 		</a>
 		<a href="https://lordbaraa.net" target="_blank">
